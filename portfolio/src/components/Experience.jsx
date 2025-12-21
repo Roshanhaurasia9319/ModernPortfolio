@@ -2,24 +2,24 @@ import { FaBriefcase, FaGraduationCap, FaRocket } from "react-icons/fa";
 
 const experiences = [
   {
-    year: "2024 – Present",
-    title: "Full Stack Developer",
-    place: "Personal Projects",
+    year: "2025 – Present",
+    title: "Graduate Engineer Trainee",
+    place: "WIPRO Ltd",
     icon: <FaRocket />,
     points: [
-      "Built full-stack web apps using Django and React",
-      "Designed modern UI with Tailwind & Bootstrap",
-      "Focused on clean code, scalability, and performance",
+      "Database Testing: Validated data integrity and complex relational logic using comprehensive test plans.",
+      "Production Safety: Prevented production data corruption through strict environment safeguards and monitoring.",
+      "Regression Testing: Built automated suites to ensure new updates didn't break existing features.",
     ],
   },
   {
-    year: "2023",
-    title: "Business Analyst Intern",
-    place: "Outlook",
+    year: "2025",
+    title: "Freelance Projects",
+    place: "Various Clients",
     icon: <FaBriefcase />,
     points: [
-      "Analyzed business data and generated insights",
-      "Worked with stakeholders to improve workflows",
+      "Analyzed business needs and generated solutions",
+      "Worked with clients to improve web presence",
       "Improved reporting and documentation quality",
     ],
   },

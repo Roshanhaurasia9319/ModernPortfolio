@@ -7,13 +7,13 @@ const stats = [
     icon: <FaCode />,
   },
   {
-    value: "3+",
+    value: "5+",
     label: "Full Stack Projects",
     icon: <FaProjectDiagram />,
   },
   {
     value: "2",
-    label: "Internships",
+    label: "Freelance Clients",
     icon: <FaUserTie />,
   },
   {
