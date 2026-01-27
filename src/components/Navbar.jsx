@@ -7,14 +7,16 @@ import {
   FaEnvelope,
   FaBars,
   FaTimes,
+  FaRoad,
+  FaRoute,
 } from "react-icons/fa";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const menu = [
-    { name: "Home", icon: <FaHome />, link: "#home" },
-    { name: "About", icon: <FaUserAstronaut />, link: "#about" },
+    { name: "Home", icon: <FaHome />, link: "" },
+    { name: "Journey", icon: <FaRoute />, link: "#experience" },
     { name: "Projects", icon: <FaCode />, link: "#projects" },
     { name: "Contact", icon: <FaEnvelope />, link: "#contact" },
   ];

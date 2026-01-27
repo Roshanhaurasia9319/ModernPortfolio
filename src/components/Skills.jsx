@@ -11,6 +11,8 @@ import {
   FaServer,
   FaBug,
   FaVial,
+  FaChartLine ,
+  FaRobot,
 } from "react-icons/fa";
 import {
   SiDjango,
@@ -60,8 +62,8 @@ const skills = [
     title: "AI / ML",
     items: [
       { name: "Machine Learning", icon: <FaBrain /> },
-      { name: "Expert Systems", icon: <FaBrain /> },
-      { name: "Predictive Analytics", icon: <FaBrain /> },
+      { name: "Expert Systems", icon: <FaRobot /> },
+      { name: "Predictive Analytics", icon: <FaChartLine /> },
     ],
   },
   {

@@ -11,6 +11,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import FreelanceProjects from './components/FreelanceProjects'
 
+
 function App() {
   return (
     < >

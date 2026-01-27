@@ -7,7 +7,7 @@ const projects = [
       "A digital services platform offering web development, branding, and online marketing solutions with a modern UI and optimized performance.",
     tech: [],
     github: "#",
-    live: "https://www.admicdigital.com/",
+    live: "",
   },
   {
     title: "Upon Solution",
@@ -15,7 +15,7 @@ const projects = [
       "Business-focused website built for a software consultancy, showcasing services, portfolio, and client engagement features.",
     tech: [],
     github: "#",
-    live: "https://uponsolution.com/",
+    live: "",
   },
   {
     title: "CashRupee",
