@@ -2,7 +2,7 @@ import { FaCode, FaProjectDiagram, FaTrophy, FaUserTie } from "react-icons/fa";
 
 const stats = [
   {
-    value: "400+",
+    value: "600+",
     label: "DSA Problems Solved",
     icon: <FaCode />,
   },
@@ -13,7 +13,7 @@ const stats = [
   },
   {
     value: "2",
-    label: "Freelance Clients",
+    label: "(Past)Freelance Clients",
     icon: <FaUserTie />,
   },
   {
@@ -50,7 +50,7 @@ const Achievements = () => {
           {stats.map((stat, i) => (
             <div
               key={i}
-              className="group relative rounded-2xl bg-white/5 backdrop-blur-xl
+              className="group cursor-pointer relative rounded-2xl bg-white/5 backdrop-blur-xl
               border border-cyan-500/20 p-8 text-center transition-all duration-300
               hover:-translate-y-2 hover:shadow-[0_0_40px_#22d3ee40]"
             >

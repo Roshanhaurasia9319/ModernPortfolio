@@ -7,8 +7,18 @@ import {
   FaGitAlt,
   FaGithub,
   FaDatabase,
+  FaBrain,
+  FaServer,
+  FaBug,
+  FaVial,
 } from "react-icons/fa";
-import { SiDjango, SiTailwindcss, SiMysql } from "react-icons/si";
+import {
+  SiDjango,
+  SiTailwindcss,
+  SiMysql,
+  SiMongodb,
+  SiPostman,
+} from "react-icons/si";
 
 const skills = [
   {
@@ -18,7 +28,7 @@ const skills = [
       { name: "CSS", icon: <FaCss3Alt /> },
       { name: "JavaScript", icon: <FaJs /> },
       { name: "React", icon: <FaReact /> },
-      { name: "Tailwind", icon: <SiTailwindcss /> },
+      { name: "Tailwind CSS", icon: <SiTailwindcss /> },
     ],
   },
   {
@@ -26,8 +36,32 @@ const skills = [
     items: [
       { name: "Python", icon: <FaPython /> },
       { name: "Django", icon: <SiDjango /> },
+      { name: "REST APIs", icon: <FaServer /> },
+    ],
+  },
+  {
+    title: "Databases",
+    items: [
       { name: "MySQL", icon: <SiMysql /> },
-      { name: "Databases", icon: <FaDatabase /> },
+      { name: "MongoDB", icon: <SiMongodb /> },
+      { name: "Database Design", icon: <FaDatabase /> },
+    ],
+  },
+  {
+    title: "Testing",
+    items: [
+      { name: "Database Testing", icon: <FaBug /> },
+      { name: "Regression Testing", icon: <FaVial /> },
+      { name: "Test Case Design", icon: <FaVial /> },
+      { name: "SDLC / STLC", icon: <FaBug /> },
+    ],
+  },
+  {
+    title: "AI / ML",
+    items: [
+      { name: "Machine Learning", icon: <FaBrain /> },
+      { name: "Expert Systems", icon: <FaBrain /> },
+      { name: "Predictive Analytics", icon: <FaBrain /> },
     ],
   },
   {
@@ -35,6 +69,7 @@ const skills = [
     items: [
       { name: "Git", icon: <FaGitAlt /> },
       { name: "GitHub", icon: <FaGithub /> },
+      { name: "Postman", icon: <SiPostman /> },
     ],
   },
 ];
@@ -57,19 +92,20 @@ const Skills = () => {
           <h2 className="text-3xl md:text-4xl font-extrabold text-white">
             Tech <span className="text-cyan-400">Stack</span>
           </h2>
-          <p className="mt-4 text-slate-400">
-            Technologies I use to build scalable and modern applications
+          <p className="mt-4 text-slate-400 max-w-2xl mx-auto">
+            Technologies and tools I use to build, test, and deliver scalable,
+            high-quality, and intelligent applications
           </p>
         </div>
 
-        {/* Cards */}
-        <div className="grid md:grid-cols-3 gap-10">
+        {/* Responsive Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
           {skills.map((group, i) => (
             <div
               key={i}
-              className="group relative rounded-2xl bg-white/5 backdrop-blur-xl border border-cyan-500/20
-              p-8 transition-all duration-300 hover:-translate-y-2
-              hover:shadow-[0_0_40px_#22d3ee40]"
+              className="group relative rounded-2xl bg-white/5 backdrop-blur-xl
+              border border-cyan-500/20 p-8 transition-all duration-300
+              hover:-translate-y-2 hover:shadow-[0_0_40px_#22d3ee40]"
             >
               {/* Card Glow */}
               <div className="absolute inset-0 rounded-2xl bg-cyan-500/10 opacity-0 group-hover:opacity-100 blur-xl transition"></div>
@@ -78,7 +114,7 @@ const Skills = () => {
                 {group.title}
               </h3>
 
-              <div className="relative z-10 grid grid-cols-2 gap-5">
+              <div className="relative z-10 grid grid-cols-2 gap-4">
                 {group.items.map((skill, idx) => (
                   <div
                     key={idx}
@@ -88,7 +124,7 @@ const Skills = () => {
                     <span className="text-2xl drop-shadow-[0_0_8px_#22d3ee]">
                       {skill.icon}
                     </span>
-                    {skill.name}
+                    <span className="text-sm sm:text-base">{skill.name}</span>
                   </div>
                 ))}
               </div>

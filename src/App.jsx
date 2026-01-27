@@ -9,6 +9,7 @@ import Experience from './components/Experience'
 import Achievements from './components/Achievements'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import FreelanceProjects from './components/FreelanceProjects'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
+      <FreelanceProjects />
       <Experience />
       <Achievements />
       <Contact />

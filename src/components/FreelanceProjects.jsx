@@ -2,40 +2,32 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Diabetes Prediction & Recommendation System",
+    title: "Admic Digital",
     description:
-      "An intelligent AI/ML-based system that predicts diabetes risk using multiple machine learning models and provides personalized recommendations for diet, exercise, medication, and lifestyle. Includes expert system-based risk categorization.",
-    tech: [
-      "Python",
-      "Machine Learning",
-      "MLP Classifier",
-      "Expert System",
-      "Streamlit",
-      "Scikit-learn",
-    ],
-    github: "https://github.com/Roshanhaurasia9319/DiabetesPredictionSystem",
-    live: "#",
+      "A digital services platform offering web development, branding, and online marketing solutions with a modern UI and optimized performance.",
+    tech: [],
+    github: "#",
+    live: "https://www.admicdigital.com/",
   },
   {
-    title: "Momentum Canvas",
+    title: "Upon Solution",
     description:
-  "A centralized platform for coders to track and showcase competitive programming performance across LeetCode, CodeChef, HackerRank, and Codeforces, along with GitHub project metrics, making technical evaluation easier for recruiters.", 
-    tech: ["Django", "Python", "React", "REST APIs", "MySQL"],
-    github: "https://github.com/Roshanhaurasia9319/Momentum-Canvas-final-year-project",
-    live: "#",
+      "Business-focused website built for a software consultancy, showcasing services, portfolio, and client engagement features.",
+    tech: [],
+    github: "#",
+    live: "https://uponsolution.com/",
   },
   {
-    title: "Blog Application",
+    title: "CashRupee",
     description:
-  "A scalable blog platform with authentication, REST APIs, and CRUD operations, featuring an admin word editor for content management and an automated Django Cleanup process that periodically removes unused files and images.",
-   tech: ["Django", "Python", "REST APIs", "MySQL", "HTML", "CSS"],
-    github: "https://github.com/Roshanhaurasia9319/BlogProject",
+      "A finance and deals platform providing users with offers, cashback opportunities, and smart savings features.",
+    tech: [],
+    github: "#",
     live: "#",
-  }
+  },
 ];
 
-
-const Projects = () => {
+const FreelanceProjects = () => {
   return (
     <section
       id="projects"
@@ -51,7 +43,7 @@ const Projects = () => {
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold">
-            Featured <span className="text-cyan-400">Projects</span>
+            Freelance <span className="text-cyan-400">Client Projects</span>
           </h2>
           <p className="mt-4 text-slate-400">
             Some of the work I’m proud of
@@ -59,11 +51,11 @@ const Projects = () => {
         </div>
 
         {/* Project Cards */}
-        <div className="grid md:grid-cols-3  gap-10">
+        <div className="grid md:grid-cols-3 gap-10">
           {projects.map((project, i) => (
             <div
               key={i}
-              className="group cursor-pointer relative rounded-2xl bg-white/5 backdrop-blur-xl
+              className="group relative cursor-pointer rounded-2xl bg-white/5 backdrop-blur-xl
               border border-cyan-500/20 p-8 transition-all duration-300
               hover:-translate-y-3 hover:shadow-[0_0_50px_#22d3ee40]"
             >
@@ -122,4 +114,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default FreelanceProjects;

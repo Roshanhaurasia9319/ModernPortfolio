@@ -24,7 +24,7 @@ const experiences = [
     ],
   },
   {
-    year: "2020 – 2024",
+    year: "2021 – 2025",
     title: "B.Tech (Computer Science)",
     place: "JIMS Greater Noida",
     icon: <FaGraduationCap />,
