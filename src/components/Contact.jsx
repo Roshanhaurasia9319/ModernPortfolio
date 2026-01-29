@@ -18,7 +18,7 @@ const Contact = () => {
             Let’s <span className="text-cyan-400 drop-shadow-[0_0_15px_rgba(34,211,238,0.5)]">Connect</span>
           </h2>
           <p className="mt-4 text-slate-400 max-w-xl mx-auto text-lg leading-relaxed">
-            Ready to bring your ideas to life? I’m currently available for new projects and collaborations.
+            Ready to bring my skills to your team. I’m currently open to new job opportunities and full-time roles.
           </p>
         </div>
 

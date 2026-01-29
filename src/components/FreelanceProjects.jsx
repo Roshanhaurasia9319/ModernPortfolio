@@ -46,7 +46,7 @@ const FreelanceProjects = () => {
             Freelance <span className="text-cyan-400">Client Projects</span>
           </h2>
           <p className="mt-4 text-slate-400">
-            Some of the work I’m proud of
+            Projects that define my work
           </p>
         </div>
 

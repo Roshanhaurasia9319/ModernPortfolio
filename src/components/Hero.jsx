@@ -24,13 +24,11 @@ const Hero = () => {
           </h1>
 
           <h2 className="mt-4 text-xl md:text-2xl font-semibold text-slate-300">
-            Full Stack Developer & Problem Solver
+            Building Robust Solutions with Modern Web Tech
           </h2>
 
           <p className="mt-6 text-slate-400 max-w-xl">
-            I build modern, scalable, and performance-driven web applications
-            with clean UI, strong backend logic, and a touch of gaming-style
-            creativity.
+            Designing and engineering high-performance web applications that scale effortlessly, handle real-world load, and look sharp, combining clean UI, robust backend systems, and production-ready architecture.
           </p>
 
           {/* CTA BUTTONS */}
